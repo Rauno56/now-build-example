@@ -1,0 +1,14 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "now": "^16.3.1"
+  },
+  "scripts": {
+    "build": "ls -la  ./api/ && mkdir -p ./api/_lib && cp -rv ./src/* ./api/_lib && ls -la ./api/_lib"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
